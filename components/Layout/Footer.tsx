@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+
+import React from 'react';
 import { Instagram, Twitter, Linkedin, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -8,8 +9,8 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left flex flex-col items-center md:items-start">
             <img 
-              src="/assets/logo.png" 
-              alt="Lumina Logo" 
+              src="https://i.imgur.com/k6lPqZc.png" 
+              alt="Aymid Logo" 
               className="h-12 w-auto object-contain mb-4" 
             />
             <p className="text-gray-400 text-sm max-w-xs">Video Editor for Creators. High retention, storytelling, and speed.</p>
