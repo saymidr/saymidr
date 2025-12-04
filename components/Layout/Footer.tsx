@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left flex flex-col items-center md:items-start">
             <img 
-              src="https://i.imgur.com/k6lPqZc.png" 
+              src="/assets/logo.png" 
               alt="Aymid Logo" 
               className="h-12 w-auto object-contain mb-4" 
             />

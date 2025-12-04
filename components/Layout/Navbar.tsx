@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="block relative z-50 group">
           <img 
-            src="https://i.imgur.com/k6lPqZc.png" 
+            src="/assets/logo.png" 
             alt="Aymid Logo" 
             className="h-12 md:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
           />
