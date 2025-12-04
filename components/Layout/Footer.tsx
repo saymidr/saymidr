@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Instagram, Twitter, Linkedin, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -10,7 +9,7 @@ const Footer: React.FC = () => {
           <div className="text-center md:text-left flex flex-col items-center md:items-start">
             <img 
               src="/assets/logo.png" 
-              alt="Aymid Logo" 
+              alt="Lumina Logo" 
               className="h-12 w-auto object-contain mb-4" 
             />
             <p className="text-gray-400 text-sm max-w-xs">Video Editor for Creators. High retention, storytelling, and speed.</p>

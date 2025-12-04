@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -33,7 +32,7 @@ const Navbar: React.FC = () => {
         <Link to="/" className="block relative z-50 group">
           <img 
             src="/assets/logo.png" 
-            alt="Aymid Logo" 
+            alt="Lumina Logo" 
             className="h-12 md:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
           />
         </Link>
