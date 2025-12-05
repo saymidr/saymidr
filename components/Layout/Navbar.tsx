@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -32,8 +31,8 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="block relative z-50 group">
           <img 
-            src="" 
-            alt="Aymid Logo" 
+            src="/assets/logo.png" 
+            alt="Lumina Logo" 
             className="h-12 md:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
           />
         </Link>
